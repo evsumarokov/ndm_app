@@ -79,7 +79,7 @@ if 'defects' not in st.session_state:
     st.session_state.defects = [
         {
             "type": "Скол (Вычитание)", "k_Rb": 1.0, "k_Eb": 1.0,
-            "df": pd.DataFrame([{"x": 400, "y": 400}, {"x": 300, "y": 400}, {"x": 400, "y": 300}])
+            "df": pd.DataFrame([{"x": 400, "y": 400}, {"x": 380, "y": 400}, {"x": 400, "y": 380}])
         },
         {
             "type": "Коррозия бетона (Деградация)", "k_Rb": 0.5, "k_Eb": 0.5,
