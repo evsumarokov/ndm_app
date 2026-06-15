@@ -5,3 +5,4 @@ shapely>=2.0.0
 matplotlib>=3.7.0
 plotly
 streamlit
+streamlit-drawable-canvas
